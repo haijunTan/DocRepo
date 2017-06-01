@@ -20,7 +20,7 @@
         第二步按场景1操作。  
   场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。  
 
-7.Git鼓励大量使用分支：
+7.Git鼓励大量使用分支：  
   查看分支：git branch
   创建分支：git branch <name>  
   切换分支：git checkout <name>
@@ -28,14 +28,14 @@
   合并某分支到当前分支：git merge <name>
   删除分支：git branch -d <name>
 
-8.打标签：
-  git tag <name>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
-  git tag -a <tagname> -m "blablabla..."可以指定标签信息；
-  git tag -s <tagname> -m "blablabla..."可以用PGP签名标签；
+8.打标签：   
+  git tag <name>用于新建一个标签，默认为HEAD，也可以指定一个commit id；   
+  git tag -a <tagname> -m "blablabla..."可以指定标签信息；   
+  git tag -s <tagname> -m "blablabla..."可以用PGP签名标签；  
   git tag可以查看所有标签。  
-  git push origin <tagname>可以推送一个本地标签；
-  git push origin --tags可以推送全部未推送过的本地标签；
-  git tag -d <tagname>可以删除一个本地标签；
-  git push origin :refs/tags/<tagname>可以删除一个远程标签。
+  git push origin <tagname>可以推送一个本地标签；  
+  git push origin --tags可以推送全部未推送过的本地标签；  
+  git tag -d <tagname>可以删除一个本地标签；  
+  git push origin :refs/tags/<tagname>可以删除一个远程标签。  
 
   ref:http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
